@@ -43,8 +43,20 @@ To get `postgres dbaas client` use
 List of all released versions may be found [here](https://github.com/netcracker/qubership-core-lib-go-dbaas-postgres-client/-/tags)
 
 ## Usage
+At first, it's necessary to register security implemention - dummy or your own, the followning example shows registration of required services:
+```go
+import (
+	"github.com/netcracker/qubership-core-lib-go/v3/serviceloader"
+	"github.com/netcracker/qubership-core-lib-go/v3/security"
+)
 
-At first user should create `DbaaSPostgreSqlClient`. This is a base client, which allows working with tenant and service databases.
+func init() {
+	serviceloader.Register(1, &security.DummyToken{})
+	serviceloader.Register(1, &security.TenantContextObject{})
+}
+```
+
+Then the user should create `DbaaSPostgreSqlClient`. This is a base client, which allows working with tenant and service databases.
 To create instance of `DbaaSPostgreSqlClient` use `NewClient(pool *dbaasbase.DbaaSPool) *DbaaSPostgreSqlClient`. 
 
 Note that client has parameter _pool_. `dbaasbase.DbaaSPool` is a tool which stores all cached connections and

@@ -13,6 +13,8 @@ import (
 	"github.com/docker/go-connections/nat"
 	"github.com/jackc/pgx/v5/stdlib"
 	"github.com/netcracker/qubership-core-lib-go/v3/configloader"
+	"github.com/netcracker/qubership-core-lib-go/v3/serviceloader"
+	"github.com/netcracker/qubership-core-lib-go/v3/security"
 	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
 	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/cache"
 	. "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model"
@@ -35,6 +37,11 @@ const (
 	testContainerDb         = "demo"
 	wrongPassword           = "qwerty123"
 )
+
+func init() {
+	serviceloader.Register(1, &security.TenantContextObject{})
+	serviceloader.Register(1, &security.DummyToken{})
+}
 
 // entity for database tests
 type Book struct {
