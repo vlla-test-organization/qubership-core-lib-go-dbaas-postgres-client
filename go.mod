@@ -4,6 +4,10 @@ go 1.23
 
 toolchain go1.24.5
 
+retract (
+    v4.0.1
+)
+
 require (
 	github.com/docker/go-connections v0.5.0
 	github.com/jackc/pgx/v5 v5.7.3
