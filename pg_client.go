@@ -8,18 +8,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/netcracker/qubership-core-lib-go/v3/utils"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/stdlib"
-	"github.com/netcracker/qubership-core-lib-go/v3/configloader"
-	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/cache"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model/rest"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-postgres-client/v4/model"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/dialect/pgdialect"
 	"github.com/uptrace/bun/migrate"
+	dbaasbase "github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3"
+	"github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3/cache"
+	"github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3/model/rest"
+	"github.com/vlla-test-organization/qubership-core-lib-go-dbaas-postgres-client/v4/model"
+	"github.com/vlla-test-organization/qubership-core-lib-go/v3/configloader"
+	"github.com/vlla-test-organization/qubership-core-lib-go/v3/utils"
 )
 
 var (

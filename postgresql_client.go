@@ -3,10 +3,10 @@ package pgdbaas
 import (
 	"context"
 
-	"github.com/netcracker/qubership-core-lib-go/v3/logging"
-	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/cache"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-postgres-client/v4/model"
+	dbaasbase "github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3"
+	"github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3/cache"
+	"github.com/vlla-test-organization/qubership-core-lib-go-dbaas-postgres-client/v4/model"
+	"github.com/vlla-test-organization/qubership-core-lib-go/v3/logging"
 )
 
 var logger logging.Logger

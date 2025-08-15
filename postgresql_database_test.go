@@ -9,24 +9,24 @@ import (
 
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/stdlib"
-	"github.com/netcracker/qubership-core-lib-go/v3/configloader"
-	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model"
-	. "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/testutils"
-	params "github.com/netcracker/qubership-core-lib-go-dbaas-postgres-client/v4/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 	"github.com/uptrace/bun"
+	dbaasbase "github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3"
+	"github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3/model"
+	. "github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3/testutils"
+	params "github.com/vlla-test-organization/qubership-core-lib-go-dbaas-postgres-client/v4/model"
+	"github.com/vlla-test-organization/qubership-core-lib-go/v3/configloader"
 )
 
 const (
-	dbaasAgentUrlEnvName     = "dbaas.agent"
-	namespaceEnvName         = "microservice.namespace"
-	testServiceName          = "service_test"
-	createDatabaseV3         = "/api/v3/dbaas/test_namespace/databases"
-	getDatabaseV3            = "/api/v3/dbaas/test_namespace/databases/get-by-classifier/postgresql"
-	username                 = "service_test"
-	password                 = "qwerty127"
+	dbaasAgentUrlEnvName = "dbaas.agent"
+	namespaceEnvName     = "microservice.namespace"
+	testServiceName      = "service_test"
+	createDatabaseV3     = "/api/v3/dbaas/test_namespace/databases"
+	getDatabaseV3        = "/api/v3/dbaas/test_namespace/databases/get-by-classifier/postgresql"
+	username             = "service_test"
+	password             = "qwerty127"
 )
 
 type DatabaseTestSuite struct {
