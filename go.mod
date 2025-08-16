@@ -13,8 +13,8 @@ require (
 	github.com/testcontainers/testcontainers-go v0.35.0
 	github.com/uptrace/bun v1.2.11
 	github.com/uptrace/bun/dialect/pgdialect v1.2.11
-	github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3 v3.0.4
-	github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.4
+	github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3 v3.0.5
+	github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.5
 )
 
 require (
