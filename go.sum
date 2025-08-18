@@ -157,10 +157,10 @@ github.com/uptrace/bun/dialect/pgdialect v1.2.11 h1:n0VKWm1fL1dwJK5TRxYYLaRKRe14
 github.com/uptrace/bun/dialect/pgdialect v1.2.11/go.mod h1:NvV1S/zwtwBnW8yhJ3XEKAQEw76SkeH7yUhfrx3W1Eo=
 github.com/viney-shih/go-lock v1.1.2 h1:3TdGTiHZCPqBdTvFbQZQN/TRZzKF3KWw2rFEyKz3YqA=
 github.com/viney-shih/go-lock v1.1.2/go.mod h1:Yijm78Ljteb3kRiJrbLAxVntkUukGu5uzSxq/xV7OO8=
-github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3 v3.0.5 h1:GMuSxryfaavKnNkZ6KQOopG89VS0RmyOOKIiq3qClQc=
-github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3 v3.0.5/go.mod h1:X5+NXWZJ4CBqBl/I86CSh6oclUZtrgbiFRMoOmDJYew=
-github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.5 h1:BxGdZEAb9/x77B8grs45ZHcQVBS5eEt4hAkvds+I938=
-github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.5/go.mod h1:DC6VVLa4r2LxfPMoEn9WmQEdasR61DB5eEtJnIGRyXw=
+github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3 v3.0.6 h1:SxGUcCsRUq7Opkb77g6ELcekkNUSu+YXG2VbAj+cQ+k=
+github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3 v3.0.6/go.mod h1:zsOUdwsZbZFJEVDsQBqNw77UhJc5RGV8QpFgsoIUgJg=
+github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.6 h1:sVTGBjAkBEoqk7fUh1dE3J2BoamW1jHNGFfnd4BrK7o=
+github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.6/go.mod h1:DC6VVLa4r2LxfPMoEn9WmQEdasR61DB5eEtJnIGRyXw=
 github.com/vmihailenco/msgpack/v5 v5.4.1 h1:cQriyiUvjTwOHg8QZaPihLWeRAAVoCpE00IUPn0Bjt8=
 github.com/vmihailenco/msgpack/v5 v5.4.1/go.mod h1:GaZTsDaehaPpQVyxrf5mtQlH+pc21PIudVV/E3rRQok=
 github.com/vmihailenco/tagparser/v2 v2.0.0 h1:y09buUbR+b5aycVFQs/g70pqKVZNBmxwAhO7/IwNM9g=
